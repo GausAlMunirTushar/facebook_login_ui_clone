@@ -78,7 +78,11 @@
     "yaml": "^1.10.2"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "vite build",
+    "start": "vite",
+    "build": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+
   },
   "author": "",
   "license": "ISC",
